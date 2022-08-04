@@ -1,0 +1,73 @@
+@media (max-width: 620px) {
+    .cards {
+        padding: 0 15px;
+        gap: 15px;
+    }
+
+    .seta {
+        width: 20px;
+        height: 20px;
+        padding: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lista {
+        height: 480px;
+    }
+
+    .card .imagem-pokemon {
+        max-height: 230px;
+    }
+
+    .card .informacoes .nome {
+        max-width: 60%;
+        font-size: 18px;
+    }
+    .card .informacoes .vida {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 430px) {
+    .cards {
+        padding: 0 10px;
+        gap:10px;
+    }
+
+    .seta {
+        width: 10px;
+        height: 10px;
+        padding: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card .imagem-pokemon {
+        max-height: 250px;
+    }
+
+    .lista {
+        height: 350px;
+    }
+
+    .card .descricao .texto {
+        font-size: 11px;
+        height: 75px;
+    }
+
+    .card .descricao .tittle {
+        font-size: 12px;
+    }
+
+    .card .informacoes .nome {
+        max-width: 60%;
+        font-size: 14px;
+    }
+    .card .informacoes .vida {
+        font-size: 11px;
+        padding-top: 8px;
+    }
+}
