@@ -49,6 +49,10 @@
         max-height: 250px;
     }
 
+    .card .imagem-pokemon1 {
+        max-height: 235px;
+    }
+    
     .lista {
         height: 350px;
     }
