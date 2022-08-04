@@ -57,6 +57,11 @@
         font-size: 11px;
         height: 75px;
     }
+    
+    .card .descricao .texto1 {
+        font-size: 11px;
+        height: 65px;
+    }
 
     .card .descricao .tittle {
         font-size: 12px;
